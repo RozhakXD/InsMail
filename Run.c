@@ -2518,6 +2518,7 @@ static const char __pyx_k_bold_bright_black_3[] = "[bold bright_black]   \342\22
 static const char __pyx_k_bold_white_bold_blue[] = "[bold white]/[bold blue]";
 static const char __pyx_k_https_ipinfo_io_json[] = "https://ipinfo.io/json";
 static const char __pyx_k_Penyimpanan_Email_txt[] = "Penyimpanan/Email.txt";
+static const char __pyx_k_bold_bright_black_Die[] = "[bold bright_black]>> [Die] <<[/]";
 static const char __pyx_k_bold_white_bold_green[] = "[bold white]/[bold green]";
 static const char __pyx_k_bold_bright_black_Live[] = "[bold bright_black]>> [Live] <<[/]";
 static const char __pyx_k_bold_bright_black_Error[] = "[bold bright_black]>> [Error] <<[/]";
@@ -2703,6 +2704,7 @@ typedef struct {
   PyObject *__pyx_kp_u_bold_bright_black_2;
   PyObject *__pyx_kp_u_bold_bright_black_3;
   PyObject *__pyx_kp_u_bold_bright_black_Catatan;
+  PyObject *__pyx_kp_u_bold_bright_black_Die;
   PyObject *__pyx_kp_u_bold_bright_black_Domain_Name;
   PyObject *__pyx_kp_u_bold_bright_black_Error;
   PyObject *__pyx_kp_u_bold_bright_black_File_Error;
@@ -3070,6 +3072,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_u_bold_bright_black_2);
   Py_CLEAR(clear_module_state->__pyx_kp_u_bold_bright_black_3);
   Py_CLEAR(clear_module_state->__pyx_kp_u_bold_bright_black_Catatan);
+  Py_CLEAR(clear_module_state->__pyx_kp_u_bold_bright_black_Die);
   Py_CLEAR(clear_module_state->__pyx_kp_u_bold_bright_black_Domain_Name);
   Py_CLEAR(clear_module_state->__pyx_kp_u_bold_bright_black_Error);
   Py_CLEAR(clear_module_state->__pyx_kp_u_bold_bright_black_File_Error);
@@ -3415,6 +3418,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_u_bold_bright_black_2);
   Py_VISIT(traverse_module_state->__pyx_kp_u_bold_bright_black_3);
   Py_VISIT(traverse_module_state->__pyx_kp_u_bold_bright_black_Catatan);
+  Py_VISIT(traverse_module_state->__pyx_kp_u_bold_bright_black_Die);
   Py_VISIT(traverse_module_state->__pyx_kp_u_bold_bright_black_Domain_Name);
   Py_VISIT(traverse_module_state->__pyx_kp_u_bold_bright_black_Error);
   Py_VISIT(traverse_module_state->__pyx_kp_u_bold_bright_black_File_Error);
@@ -3770,6 +3774,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_u_bold_bright_black_2 __pyx_mstate_global->__pyx_kp_u_bold_bright_black_2
 #define __pyx_kp_u_bold_bright_black_3 __pyx_mstate_global->__pyx_kp_u_bold_bright_black_3
 #define __pyx_kp_u_bold_bright_black_Catatan __pyx_mstate_global->__pyx_kp_u_bold_bright_black_Catatan
+#define __pyx_kp_u_bold_bright_black_Die __pyx_mstate_global->__pyx_kp_u_bold_bright_black_Die
 #define __pyx_kp_u_bold_bright_black_Domain_Name __pyx_mstate_global->__pyx_kp_u_bold_bright_black_Domain_Name
 #define __pyx_kp_u_bold_bright_black_Error __pyx_mstate_global->__pyx_kp_u_bold_bright_black_Error
 #define __pyx_kp_u_bold_bright_black_File_Error __pyx_mstate_global->__pyx_kp_u_bold_bright_black_File_Error
@@ -11844,13 +11849,13 @@ static PyObject *__pyx_pf_3Run_16Check_Email(CYTHON_UNUSED PyObject *__pyx_self,
  * [bold white]Email:[bold red] {email}""",
  *                             width=61,             # <<<<<<<<<<<<<<
  *                             style="bold bright_black",
- *                             title="[bold bright_black]>> [Live] <<[/]",
+ *                             title="[bold bright_black]>> [Die] <<[/]",
  */
                   __pyx_t_15 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 464, __pyx_L17_error)
                   __Pyx_GOTREF(__pyx_t_15);
                   if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_width, __pyx_int_61) < 0) __PYX_ERR(0, 464, __pyx_L17_error)
                   if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_style, __pyx_kp_u_bold_bright_black) < 0) __PYX_ERR(0, 464, __pyx_L17_error)
-                  if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_title, __pyx_kp_u_bold_bright_black_Live) < 0) __PYX_ERR(0, 464, __pyx_L17_error)
+                  if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_title, __pyx_kp_u_bold_bright_black_Die) < 0) __PYX_ERR(0, 464, __pyx_L17_error)
                   if (PyDict_SetItem(__pyx_t_15, __pyx_n_s_title_align, __pyx_n_u_center) < 0) __PYX_ERR(0, 464, __pyx_L17_error)
 
                   /* "Run.py":461
@@ -13339,6 +13344,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_u_bold_bright_black_2, __pyx_k_bold_bright_black_2, sizeof(__pyx_k_bold_bright_black_2), 0, 1, 0, 0},
     {&__pyx_kp_u_bold_bright_black_3, __pyx_k_bold_bright_black_3, sizeof(__pyx_k_bold_bright_black_3), 0, 1, 0, 0},
     {&__pyx_kp_u_bold_bright_black_Catatan, __pyx_k_bold_bright_black_Catatan, sizeof(__pyx_k_bold_bright_black_Catatan), 0, 1, 0, 0},
+    {&__pyx_kp_u_bold_bright_black_Die, __pyx_k_bold_bright_black_Die, sizeof(__pyx_k_bold_bright_black_Die), 0, 1, 0, 0},
     {&__pyx_kp_u_bold_bright_black_Domain_Name, __pyx_k_bold_bright_black_Domain_Name, sizeof(__pyx_k_bold_bright_black_Domain_Name), 0, 1, 0, 0},
     {&__pyx_kp_u_bold_bright_black_Error, __pyx_k_bold_bright_black_Error, sizeof(__pyx_k_bold_bright_black_Error), 0, 1, 0, 0},
     {&__pyx_kp_u_bold_bright_black_File_Error, __pyx_k_bold_bright_black_File_Error, sizeof(__pyx_k_bold_bright_black_File_Error), 0, 1, 0, 0},
