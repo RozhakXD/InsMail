@@ -5,7 +5,7 @@
 
 > Terima Kasih Telah Menggunakan InsMail! Semoga Bermanfaat 🚀
 
-## Fitur Utama
+## Fitur Utama 🔥
 1. **Generator Email**
      - **Menggunakan Faker**: Menggunakan `locale` tertentu seperti `en_US`, `id_ID`, `en_GB`, dll.
      - **Berdasarkan Nama**: Menghasilkan email dari daftar nama depan atau belakang.
