@@ -47,7 +47,7 @@
     - **Solusi**: Pastikan direktori `Penyimpanan/` ada dan Anda memiliki izin yang diperlukan untuk menyimpan file di dalamnya.
 
 ## Tangkapan Layar 🖼️
-![FunPic_20241026](https://github.com/user-attachments/assets/2d5ba622-1360-4e6d-8c12-a6691382352d)
+![FunPic_20241026](https://github.com/user-attachments/assets/3234a20a-3792-4702-aaca-a7967f75c272)
 
 ## Warning ⚠️
 - **Penggunaan Lokal Faker**: Pastikan bahwa locale yang Anda gunakan tersedia di Faker library. Locale yang tidak didukung dapat menyebabkan error.
