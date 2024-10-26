@@ -27,7 +27,7 @@
     ```
 3. **Jalankan Program**
     ```bash
-    python Run.py
+    chmod +x Run && ./Run
     ```
 
 ## Masalah yang Mungkin Muncul ❗️
