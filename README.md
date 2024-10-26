@@ -31,18 +31,18 @@
     ```
 
 ## Masalah yang Mungkin Muncul ❗️
-1. Email Tidak Terdeteksi dalam Pengecekan
-    - Daftar email yang diberikan mungkin berisi format yang tidak benar atau data tambahan selain email.
-    - **Solusi**: Periksa kembali file daftar email Anda, pastikan hanya berisi alamat email yang valid, satu per baris.
-2. **Locale Tidak Tersedia di Faker**
-    - **Solusi**: Gunakan locale yang didukung seperti `en_US`, `id_ID`, `en_GB`, atau lainnya yang terdaftar dalam dokumentasi Faker.
-3. **Domain Tidak Valid**
+1. **Domain Tidak Valid**
     - Jika Anda memasukkan domain yang tidak valid atau tidak ada, program mungkin gagal dalam menghasilkan email.
     - **Solusi**: Pastikan domain sudah benar, misalnya `gmail.com`, `yahoo.com`.
+2. Email Tidak Terdeteksi dalam Pengecekan
+    - Daftar email yang diberikan mungkin berisi format yang tidak benar atau data tambahan selain email.
+    - **Solusi**: Periksa kembali file daftar email Anda, pastikan hanya berisi alamat email yang valid, satu per baris.
+3. **Locale Tidak Tersedia di Faker**
+    - **Solusi**: Gunakan locale yang didukung seperti `en_US`, `id_ID`, `en_GB`, atau lainnya yang terdaftar dalam dokumentasi Faker.
 4. **Program Tidak Merespon Setelah Masukan Jumlah yang Besar**
     - Terlalu banyak email yang diminta dapat menyebabkan kelambatan atau crash.
     - **Solusi**: Batasi jumlah email yang ingin dibuat di bawah 1000 untuk menjaga kinerja program tetap optimal.
-5. Error pada Penyimpanan File
+5. **Error pada Penyimpanan File**
     - Jika file output tidak tersedia atau Anda tidak memiliki izin yang benar di direktori, file mungkin gagal tersimpan.
     - **Solusi**: Pastikan direktori `Penyimpanan/` ada dan Anda memiliki izin yang diperlukan untuk menyimpan file di dalamnya.
 
